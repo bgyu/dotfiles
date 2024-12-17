@@ -3,12 +3,7 @@
         {
             "name": "Linux Kernel",
             "includePath": [
-                "${workspaceFolder}",
-                "${workspaceFolder}/include/asm-generic",
-                "${workspaceFolder}/include",
-                "${workspaceFolder}/arch/x86/include",
-                "${workspaceFolder}/scripts",
-                "${workspaceFolder}/tools/include"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "__KERNEL__",
