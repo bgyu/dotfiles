@@ -140,6 +140,10 @@ Vim has a rich set of **default key mappings** across its various modes. Below i
 | `:w`      | Save the file.                                      |
 | `:q`      | Quit Vim.                                           |
 | `dd`      | Delete the current line.                            |
+| `d}`      | Delete to end of paragraph                          |
+| `dG`      | Delete to end of file                               |
+| `dtJ`     | Delete up to capital `J`, not including `J`         |
+| `dfJ`     | Delete up to capital `J,` including `J`             |
 | `yy`      | Yank (copy) the current line.                       |
 | `p`       | Paste after the cursor.                             |
 | `P`       | Paste before the cursor.                            |
@@ -147,7 +151,7 @@ Vim has a rich set of **default key mappings** across its various modes. Below i
 | `?pattern`| Search backward for `pattern`.                      |
 | `n`       | Repeat the last search forward.                     |
 | `N`       | Repeat the last search backward.                    |
-| `.`       | Repeat the last change.                             |
+| **`.`**       | Repeat the last change.                             |
 | `x`       | Delete the character under the cursor.              |
 
 ---
@@ -190,6 +194,8 @@ Vim has a rich set of **default key mappings** across its various modes. Below i
 | `Ctrl-p`        | Cycle backward through command history.              |
 | `Ctrl-n`        | Cycle forward through command history.               |
 | `Esc` or `Ctrl-c`| Exit Command-line mode without executing a command.  |
+| `*`             | Move to next instance of word under cursor           |
+| `#`             | Move to previous insance of word under cursor        |
 
 ---
 
