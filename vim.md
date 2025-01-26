@@ -204,9 +204,15 @@ Vim has a rich set of **default key mappings** across its various modes. Below i
 - **Start Ex Mode**: `Q`
 - **Exit Ex Mode**: `:visual`
 
+
+---
+
+
 #### **Tips**
 ##### Registers
+
 |  **Key**         | **Action**                  |
+|------------------|-----------------------------|
 |  `"ayy`          |  Cut the current line into register `a` |
 |  `"ap`           | Paste from register `a` into current document|
 |  `22"ap`         | Paste from register `a` 22 times |
